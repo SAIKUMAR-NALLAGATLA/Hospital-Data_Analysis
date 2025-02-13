@@ -55,10 +55,15 @@ No Data right = IF(ISBLANK(CALCULATE(SUM(Hospital_Data[Total]),
 - ENT, Orthopaedics, and Dermatology have the highest wait lists by specialty.
 
 ## File Structure
+
   Hospital-Data_Analysis/
+  
 │   README.md
+
 │   requirements.txt
+
 │   Hospital_Analysis.pbix
+
 └───Images/
         Dashboard_Overview.png
         Detailed_View.png
