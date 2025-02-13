@@ -56,17 +56,22 @@ No Data right = IF(ISBLANK(CALCULATE(SUM(Hospital_Data[Total]),
 
 ## File Structure
 
-  Hospital-Data_Analysis/
-  
-│   README.md
+The datasets for this analysis are included in the `datasource.zip` file, which contains:
+- **Inpatient**: Datasets from 2018 to 2021.
+- **Outpatient**: Datasets from 2018 to 2021.
+- **Mapping_Speciality**: Speciality mapping data.
 
-│   requirements.txt
+To use the data:
+1. Download and extract the `datasource.zip` file.
+2. Maintain the folder structure as:
+    ```plaintext
+    datasource/
+        ├── Inpatient/
+        ├── Outpatient/
+        └── Mapping_Speciality/
+    ```
+3. Load the data into Power BI for analysis.
 
-│   Hospital_Analysis.pbix
-
-└───Images/
-        Dashboard_Overview.png
-        Detailed_View.png
 ## Requirements
 - Power BI Desktop
 - Data Source: Hospital wait list data from 2018 to 2021.
